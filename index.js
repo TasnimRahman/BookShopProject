@@ -33,3 +33,8 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+//for crossfading slider
+
