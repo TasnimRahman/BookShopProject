@@ -503,11 +503,36 @@ a{
 .carousel .slide, .carousel-inner{
     margin-left: 80px;
     margin-top: 10px;
-    height: 600px;
+    height: 400px;
     width: 1200px;
 }
 
+.blog_options .btn-group{
+    margin-left: 530px;
+    margin-top: 30px;
+}
 
+.message {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(1, 1, 32);
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.message .form-control {
+    margin-left: 400px;
+    width: 270px;
+}
+
+.message input[type="button"] {
+    background-color:#f68121;
+    color: #FFFFFF;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
 /*subodh*/
 .subodh img{
     margin-left: 500px;
@@ -520,5 +545,26 @@ a{
 .rules h1{
     text-align: center;
     margin-top: 50px;
+}
+.rules .card-group .card-header {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    height: 7rem;
+    background-color: #E9A447;
+}
+
+.rules .card-group .card-body{
+    margin-top: -5px;
+    padding: 30px 35px 30px 55px;
+    border-radius: 10px;
+    flex: 1 1 auto;
+}
+
+.loan_click button{
+    margin-left: 550px;
+    margin-top: 20px;
+    height: 50px;
 }
 

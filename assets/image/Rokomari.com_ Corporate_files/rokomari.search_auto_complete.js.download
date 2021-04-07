@@ -1,0 +1,128 @@
+
+$.fn.searchAutoComplete = function (options) {
+    $('body').append("<ul id='search_auto_complete'></ul>");
+    $(this).attr('autocomplete', 'off');
+    var input = $(this);
+    var searchBox = $('#search_auto_complete');
+    var observable = Rx.Observable.fromEvent(input, 'input');
+    // var overlayForSearch = $('#overlayForSearch');
+    var lockScroll;
+
+    observable
+        .debounceTime(500)
+        .subscribe({
+            next: function (e) {
+                if (e.keyCode === 27) {
+                    //Not Working This Block
+                } else {
+                    var top = input[0].getBoundingClientRect().bottom + $(window).scrollTop();
+                    var left = input[0].getBoundingClientRect().left;
+                    var width = input[0].getBoundingClientRect().width;
+                    var height = $(window).height() - input[0].getBoundingClientRect().bottom;
+                    if (height > 530) height = 530;
+                    $.getJSON(options.source + "?term=" + input.val().trim(), function (products) {
+                        if (products.length > 0) {
+                            var productList = "";
+                            for (var i = 0; i < products.length; i++) {
+                                productList +=
+                                    "<li>" +
+                                    "<a class='result_row' href='/book/" + products[i].id + "?ref=srac_p" + i + "'>" +
+                                    "<div class='result_column image'>" +
+                                    "<img src='https://s3-ap-southeast-1.amazonaws.com/rokomari110/ProductNew20190903/45X64/" + products[i].avatar + "' width='26px'/>" +
+                                    "</div>" +
+                                    "<div class='result_column name'>" +
+                                    "<span class='product_name'> " + products[i].label + " </span>" +
+                                    "<span class='author_name'>" + products[i].authorOrBrand + "</span>" +
+                                    "</div>";
+                                if (products[i].productMrp !== products[i].productPrice) {
+                                    productList +=
+                                        "<div class='result_column price'>" +
+                                        "<span class='previous_price'> Tk. " + products[i].productMrp + " </span>" +
+                                        "<span class='current_price'> Tk. " + products[i].productPrice + "</span>" +
+                                        "</div>";
+                                } else {
+                                    productList +=
+                                        "<div class='result_column price'>" +
+                                        "<span class='current_price'> Tk. " + products[i].productPrice + "</span>" +
+                                        "</div>";
+                                }
+                                productList +=
+                                    /*"<div class='result_column add_to_cart'>" +
+                                        "<button type='button' productId='"+products[i].id+"'>Add to Cart</button>" +
+                                     "</div>" +*/
+                                    "</a>" +
+                                    "</li>";
+                            }
+                            searchBox.html(productList).css({
+                                'top': top,
+                                'left': left,
+                                'min-width': width,
+                                'max-height': 530
+                            }).show().scrollTop(0);
+                            $('#overlayForSearch').show();
+                        } else {
+                            searchBox.empty().hide();
+                            lockScroll = false;
+                        }
+                    }).error(function () {
+                        searchBox.empty().hide();
+                        lockScroll = false;
+                    });
+                }
+            }
+        });
+
+
+    /*--------------------------------------------------------
+        Stop Disapearing searchBox when scroll reach to end
+    ---------------------------------------------------------*/
+    
+
+    
+    if ('searchBox:visible') {
+        searchBox.mouseenter(function () {
+            lockScroll = true;
+            stopScroll(lockScroll);
+        })
+    }
+
+    searchBox.mouseleave(function () {
+        lockScroll = false;
+    })
+
+    $(window).scroll(function() {
+        if(!lockScroll) {
+            searchBox.fadeOut();
+            $('#overlayForSearch').hide();
+        }
+    })
+
+    //Disable Window Scrolling
+    function stopScroll(value) {
+        var previousScrollTop = $(window).scrollTop();
+        $(window).scroll(function (e) {
+            if (lockScroll) {
+                $(window).scrollTop(previousScrollTop);
+            }
+            previousScrollTop = $(window).scrollTop();
+        });
+    }
+    
+    
+    //Hide searchBox when click outsidie of the searchBox
+    $(document).click(function (e) {
+        if ($(e.target).closest('ul').attr('id') !== 'search_auto_complete') {
+            searchBox.fadeOut();
+            $('#overlayForSearch').hide();
+        } 
+    });
+    
+    //Hide searchBox when Escape Key press
+    $(document).keyup(function (e) {
+        if (e.keyCode == 27) { 
+            searchBox.fadeOut();
+            $('#overlayForSearch').hide();
+        }
+    });
+
+};

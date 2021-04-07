@@ -1,0 +1,126 @@
+#search_auto_complete {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #FFFFFF;
+    border: 1px solid #cccccc;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: auto;
+    display: none;
+    position: absolute;
+    z-index: 99999999;
+    -webkit-box-shadow: 2px 2px 7px 0 rgba(59, 59, 59, 0.61);
+    -moz-box-shadow: 2px 2px 7px 0 rgba(59, 59, 59, 0.61);
+    box-shadow: 2px 2px 7px 0 rgba(59, 59, 59, 0.61);
+    opacity: 0.99;
+    width: 528px
+}
+
+ul#search_auto_complete>li {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #efefef;
+}
+
+ul#search_auto_complete>li:hover {
+    background: #f0f0f0;
+}
+
+#search_auto_complete a.result_row {
+    display: table;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#search_auto_complete .result_column {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#search_auto_complete .result_column.image {
+    font-size: 0;
+    width: 36px;
+}
+
+#search_auto_complete .result_column.name span {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 315px
+}
+
+#search_auto_complete .result_column.name span.product_name {
+    font-size: 14px;
+}
+
+#search_auto_complete .result_column.name span.author_name {
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+#search_auto_complete .result_column.price {
+    width: 145px;
+    text-align: right;
+    box-sizing: border-box;
+    border: none;
+}
+
+#search_auto_complete .result_column.price span.previous_price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #8f8f8f;
+}
+
+#search_auto_complete .result_column.price span.current_price {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#search_auto_complete .result_column.add_to_cart {
+    width: 70px;
+}
+
+#search_auto_complete button {
+    cursor: pointer;
+    font-size: 11px;
+    background: #4fa23a;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 3px;
+    height: 25px;
+    width: 70px;
+}
+
+#search_auto_complete button:hover {
+    background: #428b2f;
+}
+
+@media only screen and (max-width: 767px) {
+    #search_auto_complete {
+        width: 85%;
+    }
+    #search_auto_complete div.add_to_cart {
+        display: none;
+    }
+    #search_auto_complete .result_column.price {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #search_auto_complete .result_column.price span.previous_price {
+        display: none;
+    }
+    #search_auto_complete .result_column.price {
+        width: 65px;
+        padding-right: 0;
+    }
+    #search_auto_complete .result_column.name span {
+        width: 265px;
+    }
+}

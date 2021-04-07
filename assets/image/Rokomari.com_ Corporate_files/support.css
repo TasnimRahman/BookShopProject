@@ -1,0 +1,590 @@
+.pHomeUnderFixedMenu { margin-top: 130px; }
+div.suppHeaderArea{background-size: 100% auto !important}
+#support > div.suppHeaderArea{ background: url("../img/banner/support.png") center;}
+.suppHeader{background-color: rgba(43,43,43,0.7);padding:125px 15px 125px;}
+.suppHeader>h1{font-size: 35px;font-weight: 400;color: #FFFFFF;text-align: center; margin: 0 0 20px; text-transform: none;}
+.searchBox{width: 620px;margin: 0 auto;position: relative;}
+.searchText{position: absolute;width: 100%;height: 50px;background-color: #FFFFFF;border: 1px solid #FFFFFF;border-radius: 3px;padding: 15px;}
+.btnSearchHelp{position: absolute;right: 0;background: transparent;border: 0;padding: 12px;}
+.btnSearchHelp>i{font-size: 25px;color: #cdcdcd;}
+.suppBody{background-color: #f0f2f7;padding: 90px 0 50px;}
+.helpText{margin: 0;text-align: justify;line-height: 20px;}
+.helpBtn{background-color: #FFFFFF;border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    padding: 15px;
+    display: block;
+    width: 100%;
+    height: 102px;
+    margin-bottom: 38px;
+}
+.helpBtn>img{float: left;margin-right: 15px;}
+
+.helpBtn>h2 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #4490a5;
+    font-weight: 400; 
+    margin: 17px 0 0; 
+}
+
+.faq {
+    text-transform: uppercase !important;
+}
+
+.helpBtn>p{color: #444546;font-style: italic;}
+/*****************************************Guide Page*********************************************/
+#guide > div.suppHeaderArea{ background: url("../img/support/guideBg.png") center;}
+.suppMenu{width: 260px;border: 1px solid #d1dadc;border-bottom-left-radius: 10px;border-top-left-radius: 10px;overflow: hidden;}
+.suppMenu>ul{margin: 0}
+.suppMenu>ul>li>ul>li,.suppMenu>ul>li>p,.suppMenu>ul>li{border-bottom: 1px solid #d1dadc;}
+.suppMenu>ul>li>ul>li:last-child,.suppMenu>ul>li:last-child{border-bottom: 0}
+.suppMenu>ul>li>p{margin: 0}
+.suppMenu>ul>li>ul>li>a,.suppMenu>ul>li>p>a,.suppMenu>ul>li>a{font-size: 16px; color: #444546;line-height: 1.44;padding: 15px 0 15px 30px; display: block;background-color: #f5f6f8;}
+.suppMenu>ul>li>ul>li>a:hover,.suppMenu>ul>li>p>a:hover,.suppMenu>ul>li>a:hover{color: #4490a5; background-color: #FFFFFF;}
+.suppMenu>ul>li>ul>li>a.active,.suppMenu>ul>li>p>a.active,.suppMenu>ul>li>a.active{color: #4490a5; background-color: #FFFFFF;}
+.suppMenu>ul>li>ul{margin: 0}
+.suppMenu>ul>li>ul>li>a{font-size: 14px; font-style: italic;color: #8f9495;padding-left: 50px; cursor: pointer;}
+.suppRightBody{width: 850px;}
+.suppRightBody>h2{font-size: 25px; font-weight: 300; margin: 0 0 20px;}
+.suppRightBody>p{color: #8f9495; text-align: justify; line-height: 24px;margin-bottom: 35px;}
+.suppRightBody>ul { margin: -25px 0 0; padding: 0 0 0 15px; font-size: 16px; font-style: italic; }
+.suppRightBody>ul>li{ text-align: start;}
+.suppRightBody>ul>li>a>img { margin: 15px 0 30px -15px; width: 850px; }
+.suppRightBody>ul>li>img { margin: 15px 0 30px -15px; width: 850px; }
+.suppRightBody > p.guideNav { font-size: 25px; text-align: center; margin: -10px 0 0; }
+.suppRightBody>p.guideNav>span>a>i{font-size: 40px;}
+.suppRightBody>p.guideNav>span>a.disable{color: #95999a}
+.suppRightBody>p.guideNav>span>a>i:before { float: left; margin-bottom: -10px; padding: 0 7px; }
+.previous{margin-right: 60px;}
+.next{margin-left: 60px;}
+/************************************ End of Guide Page *****************************************/
+/***************************************** Help Page ********************************************/
+#help > div.suppHeaderArea{ background: url("../img/support/helpBg.png") center;}
+#help > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+.helpDiv>h2{font-size: 25px; font-weight: 300; text-align: center;margin: 20px auto;}
+.helpDiv>p{color: #8f9495; line-height: 25px;}
+.helpDiv>p.info{color: #444546; font-size: 22px; font-weight: 300; line-height: 1.44}
+.helpDiv>p>span,.helpDiv>p.info>span{ display: inline-block;}
+/************************************* End of Help Page *****************************************/
+/*************************************** Ticket Page ********************************************/
+#ticket > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#ticket > div.suppHeaderArea { background: url("../img/banner/ticket.png") center; }
+#ticketForm > div.inputRow > span.inputLabel{width: 100px;}
+.ticketFileInput{    margin-top: -10px; display: inline-block;}
+.fullWidth{display: inline-block; width: 100%;}
+.btnSubmitTicket{background-color: #4fa23a; border-radius: 0; text-transform: uppercase; color: #FFFFFF; font-size: 16px; font-weight: 500; padding: 8px 80px;}
+#ticket > div.suppBody > div > div > div.suppRightBody.pull-right > p{ font-size: 16px; margin-bottom: 26px;}
+select#type { height: 60px; width: 525px; font-size: 17px; padding: 0 25px; }
+select#type > option{ color: #444546; font-style: normal;}
+#details{ width: 525px; font-size: 17px; padding: 20px 25px;}
+#ticketForm > div:nth-child(4) > span{ padding-left: 30px;}
+#ticketForm > div:nth-child(5) > span{ padding-left: 30px;}
+/*********************************** End of Ticket Page *****************************************/
+/**************************************** Faq Page **********************************************/
+#faqPage > div.suppHeaderArea{ background: url("../img/support/faqBg.png") center;}
+#faqPage > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#faq>p.title2:first-child{ margin-bottom: 20px;}
+#faq>p.title2{ font-size: 25px; font-weight: 300; margin: 0; color: #444546; line-height: 1.44}
+#faq-point>p.title2:first-child{ margin-bottom: 20px;}
+#faq-point>p.title2{ font-size: 25px; font-weight: 300; margin: 0; color: #444546; line-height: 1.44}
+#faq > h2 { font-size: 22px; font-weight: 400; color: #8F9495; margin: 35px 0 25px; display: inline-block; width: 100%; }
+ul.queAndAns{ padding: 0 0 0 18px; margin-top: 0; width: 100%;}
+#faq > ul.queAndAns > li > p.question{font-size: 14px; color: #4490a5; margin-bottom: 10px;font-style: normal; cursor: pointer;}
+#faq > ul.queAndAns > li > div.answer{font-size: 14px;color: #5f6061; line-height: 20px; margin-bottom: 30px; text-align: justify;}
+#faq-point > ol.queAndAns{ padding: 0 0 0 18px; margin-top: 0; width: 100%;}
+#faq-point > ol.queAndAns > li > p.question-point{font-size: 14px; color: #4490a5; margin-bottom: 10px;font-style: normal; cursor: pointer;}
+#faq-point > ol.queAndAns > li > div.answer-point{font-size: 14px;color: #5f6061; line-height: 20px; margin-bottom: 30px; text-align: justify;}
+#faq-point > ol.queAndAns > li > div.answer-point > ul > li {margin-bottom: -15px; margin-left: -20px; list-style-type: disc;}
+#faq-point > ol.queAndAns > li > div.answer-point > ul > li > .point-mt {margin-top: 24px;}
+#faq-point > ol.queAndAns > li > div.answer-point > ul > li > .table {margin-top: 12px;}
+/************************************ End of Faq Page *******************************************/
+/************************************* About Us Page ********************************************/
+#about > div.suppHeaderArea{ background: url("../img/banner/aboutus.png") center;}
+#about > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#about > div > div > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center;}
+#about > div > div > h2 > span { border-bottom: 1px solid #8F9495; padding: 0 20px 20px; }
+#about > div.story > div > h2 { margin: 85px 0 64px; }
+#about > div.story ul { font-size: 16px; font-weight: 400; font-style: italic; color: #444546;}
+#about > div.leadership > div > h2{margin: 90px 0 60px;}
+#about > div.story > div > div,#about > div > div > p{ font-size: 16px; color: #8f9495; line-height: 28px; text-align: justify;}
+#about > div.story > div > div,#about > div.story > div > p{ column-count: 2; -webkit-column-count: 2; -moz-column-count: 2; column-gap: 60px; -webkit-column-gap: 60px; -moz-column-gap: 60px;}
+#about > div.leadership > div > ul{margin: 0;}
+#about > div.leadership > div > ul > li{float: left; width: 228px; padding: 0; position: relative;}
+#about > div.leadership > div > ul > li:hover .leaderHover{display: block;}
+.leaderHover{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(68, 144, 165, 0.65); display: none;}
+.leaderHover > p{ font-size: 18px; color: #FFFFFF; text-align: center; margin: 145px 30px 0;}
+.leaderHover > ul{text-align: center; margin: 0;}
+.leaderHover > ul > li{ height: 25px; width: 25px; border-radius: 50%; margin: 2px; padding: 0;}
+.leaderHover > ul > li > a { color: #5d8ea5; background-color: #FFF; font-size: 16px; display: block; height: 100%; width: 100%; border-radius: 50%; padding: 2px; }
+.leaderHover > ul > li > a:hover { color: #FFFFFF; background-color: #4fa23a; transition: all 0.5s; -webkit-transition: all 0.5s;}
+#about > div.why > div > h2{margin: 70px 0 60px;}
+.what{ background-color: #f3f3f3; margin-top: 90px;}
+#about > div.what > div > h2{ margin: 40px;}
+#about > div.what > div > div.testimonial{ width: 765px; margin: 0 auto 40px;}
+.story > div:nth-child(1) > div:nth-child(6){ -moz-column-count: 2; font-size: 16px; text-align: justify; -moz-column-gap: 60px; color: #8F9495; line-height: 28px; }
+/********************************** End of About Us Page ****************************************/
+/************************************** Contact Us Page *****************************************/
+#contact > div.suppHeaderArea{ background: url("../img/support/contactUsBg.png") center;}
+#contact > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#contact > div > div > div > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 85px 0 65px;}
+#contact > div > div > div > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+.callUs{ background-color: #0797d6; color: #FFFFFF; font-size: 22px; padding: 45px 0;}
+.cellNumber{ color: #0797d6; background-color: #FFFFFF; border-radius: 5px; margin-left: 45px; padding: 12px;}
+#contact > div.contactUs > div > div.wraper { display: table; width: 995px; margin: 90px auto 50px; }
+.email{ width: 525px;}
+.map{ width: 430px;}
+.email > form > input {height: 50px; width: 100%; border: 1px solid #d7d7d7; border-radius: 3px; font-size: 16px;padding: 0 20px; margin-bottom: 15px;}
+.email > form > textarea{ width: 100%; border: 1px solid #d7d7d7; border-radius: 3px; font-size: 16px;padding: 15px 20px; margin-bottom: 15px;}
+.email > form > div.inputRow { margin: 0 0 15px; }
+#contact > div.contactUs > div > div > div.email.pull-left > form > span.successMess{ float: right; width: 330px}
+.btnSubmitEmail{ text-transform: uppercase; color: #FFFFFF; font-size: 20px; background-color: #4490a5; width: 152px; padding: 12px;}
+.mapWraper{ border: 1px solid #d7d7d7; border-radius: 3px;}
+.officeAddress{padding: 20px 25px; position: relative;}
+.officeAddress > p{ font-size: 16px; color: #adaeaf;}
+.arrowDown{ position: absolute; bottom: -5px; padding: 5px; background-color: #FFFFFF;  -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg);}
+/*********************************** End of Contact Us Page *************************************/
+/************************************* Privacy Policy Page **************************************/
+#privacy > div.suppHeaderArea{ background: url("../img/banner/privacy.png") center;}
+#privacy > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#privacy > div.container > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 85px 0 65px;}
+#privacy > div.container > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+#privacy > div.container > h3{ font-size: 25px; font-weight: 300; color: #444546; text-align: center; margin: 85px 0 65px;}
+#privacy > div.container > h3 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+.pText{ font-size: 16px; color: #adaeaf; line-height: 28px; text-align: justify;}
+#privacy{ padding-bottom: 38px;}
+.lmDate{ font-size: 15px; color: #444546; text-align: left; font-style: italic; font-weight: 400;}
+#privacy > div.container > ul { font-size: 16px; font-style: italic; text-align: left; font-weight: 400; padding-left: 20px; line-height: 30px; margin: 20px 0; }
+/********************************* End of Privacy Policy Page ***********************************/
+/************************************* Terms of Use Page ****************************************/
+#terms > div.suppHeaderArea{ background: url("../img/banner/terms.png") center;}
+#terms > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#terms > div.container > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 85px 0 65px;}
+#terms > div.container > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+#terms > div.container > h3{ font-size: 25px; font-weight: 300; color: #444546; text-align: center; margin: 85px 0 65px;}
+#terms > div.container > h3 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+.pText{ font-size: 16px;color: #5f6061; line-height: 28px; text-align: justify;}
+#terms{ padding-bottom: 38px;}
+.lmDate{ font-size: 15px; color: #444546; text-align: left; font-style: italic; font-weight: 400;}
+#terms > div.container > ul { font-size: 16px; font-style: italic; text-align: left; font-weight: 400; padding-left: 20px; line-height: 30px; margin: 20px 0; }
+/*********************************** End of Terms of Use Page ***********************************/
+/*************************************** Media Detail Page **************************************/
+#media > div > div > div.col-md-9 > h2{ font-size: 30px; font-weight: 300; text-align: left; line-height: 45px; margin: 0 0 15px; }
+#media > div > div > div.col-md-9 > p.lmDate{ font-size: 18px; color: #8f9495;}
+#media > div > div > div.col-md-9 > img{ margin: 30px 0;}
+.shareMedia{}
+.shareMedia > li:nth-child(1){ font-style: italic;}
+.shareMedia > li:nth-child(2) > a > i{ color: #2bade3; font-size: 18px;}
+.shareMedia > li:nth-child(3) > a > i{ color: #3a579b; font-size: 18px;}
+.shareMedia > li:nth-child(4) > a > i{ color: #FFFFFF; font-size: 18px;}
+.shareMedia > li:nth-child(4) > a > i:before{ font-size: 13px;}
+.shareMedia > li:nth-child(4) > a{ background-color: #027bb6; padding: 0 3px;}
+.commentBox{ border: 1px solid #e4e4e4; margin-bottom: 50px;}
+.commentHeader{ display: inline-block; width: 100%; border-top: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; background-color: #f5f5f5; font-size: 16px; line-height: 1; padding: 33px 30px;}
+.commentHeader > span.pull-right{ color: #4490a5;}
+.userImg{ border: 1px solid #cfcfcf; padding: 1px; background-color: #FFF; margin: 20px 0 0 30px; }
+.commentArea{ margin: 20px 30px 40px 120px; }
+.commentArea > form > textarea{ width: 100%;}
+.commentArea > form{ position: relative;}
+.commentArea > form > button{ margin-top: 15px;}
+.commentArea > form > img{ position: absolute; top: 0; left: -11px;}
+.commentArea > form > textarea{ border: 1px solid #dddddd; padding: 15px; font-size: 13px;}
+.commentArea > form > textarea::-webkit-input-placeholder{ font-style: italic;}
+.commentArea > form > textarea::-moz-placeholder{ font-style: italic;}
+.commentArea > form > textarea:-moz-placeholder{ font-style: italic;}
+.commentArea > form > textarea:focus{ outline: none;}
+.btnSubmit{ text-transform: uppercase; color: #FFFFFF; background-color: #4fa23a; float: right; border: 1px solid #408a2d; margin-top: 20px; width: 90px;}
+.commentArea > ul{ display: inline-block; width: 100%; margin-top: 20px;}
+.commentArea > ul > li{ border-top: 1px solid #eaeaea; padding: 20px 0;}
+.commentArea > ul > li > img{ border: 1px solid #ececec; }
+.commentArea > ul > li > p{ margin-left: 50px; font-size: 13px; color: #8f9495; margin-bottom: 0;}
+.commentArea > ul > li > xmp{ margin-left: 50px; font-size: 13px; color: #8f9495; margin-bottom: 0; white-space: normal; margin-top: 0; }
+.commentArea > ul > li > p:nth-child(3){ font-size: 12px; color: #adaeaf; line-height: 30px}
+.btnLoadMoreComment{ display: block; width: 135px; margin: 0 auto; border-radius: 0; background-color: #f0f0f0; border: 1px solid #e6e6e6; color: #444456;}
+.moreMedia{ background-color: #f5f5f5; border: 1px solid #e3e3e3; border-radius: 5px; padding: 20px; margin-bottom: 30px}
+.moreMedia > h2{ font-size: 25px; font-weight: 300; margin: 0; border-bottom: 1px solid #eaeaea; padding-bottom: 15px;}
+.moreMedia > ul > li{ border-bottom: 1px solid #eaeaea; padding: 20px 0;}
+.moreMedia > ul > li > p{ font-size: 13px; color: #8f9495; margin: 10px 0 0;}
+.moreMedia > ul:nth-child(2) > li:last-child{ border-bottom: 0; padding-bottom: 0;}
+.moreMedia:last-child{ margin-bottom: 50px;}
+#media { padding: 40px 0 0; }
+#media > div > div > div.col-md-9 > ul > li > h2{ font-size: 25px; font-weight: 300; text-align: left; line-height: 45px; margin: 0 0 15px; }
+#media > div > div > div.col-md-9 > ul > li > p.lmDate{ font-size: 18px; color: #8f9495;}
+#media > div > div > div.col-md-9 > ul > li{ border-bottom: 1px solid #eaeaea; margin-bottom: 30px;}
+#media > div > div > div.col-md-9 > ul > li:last-child{ border-bottom: 0; margin-bottom: 0;}
+#media > div > div > div.col-md-9 > ul > li > p.pText{ margin-bottom: 30px;}
+#media > div > div > div.col-md-9 > ul.shareMedia{ display: inline-block; width: 100%;}
+#media > div > div > div.col-md-9 > ul.shareMedia > li{ float: left; border-bottom: 0;}
+#media > div > div > div.col-md-9 > ul.shareMedia > li:first-child{ border-bottom: 1px solid #eaeaea;}
+#media > div > div > div.col-md-9 > ul.shareMedia > li:last-child{ margin-top: -4px;}
+.allNewses{ margin-bottom: 50px;}
+/*********************************** End of Media Detail Page ***********************************/
+/************************************** Forgot Password Page ************************************/
+#forgot{ padding-bottom: 50px;}
+#forgot > div > div{ margin-bottom: 30px;}
+#forgot > div > h1{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 85px 0 65px; }
+#forgot > div > h1 > span{ border-bottom: 1px solid #8f9495; padding: 0 15px 15px; }
+#forgot > div > div.message{ font-size: 18px; color: #4fa23a; text-align: center; line-height: 50px; margin-bottom: 30px; background-color: #e8fae3; border: 1px solid #d2eacc;}
+#forgot > div > form{ width: 565px; display: block; margin: 0 auto;}
+#email{}
+#forgot > div > form > span.inputLabel{ width: 60px;}
+/*********************************** End of Forgot Password Page ********************************/
+/*************************************** Reset Password Page ************************************/
+#reset{ padding-bottom: 50px;}
+#reset > div > div{ margin-bottom: 30px;}
+#reset > div > div.message{ font-size: 18px; color: #4fa23a; text-align: center; line-height: 50px; margin-bottom: 30px; background-color: #e8fae3; border: 1px solid #d2eacc;}
+#reset > div > form{ width: 440px; display: block; margin: 0 auto;}
+#reset > div > form > p > input.textInput{ width: 300px;}
+/************************************ End of Reset Password Page ********************************/
+/*************************************** Donation Entry Page ************************************/
+#donateEntry > div.suppHeaderArea > div > p{ font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#donateEntry > div.container > div > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 65px 0 45px; }
+#donateEntry > div.container > div > h2 > span{ border-bottom: 1px solid #8f9495; padding: 0 15px 15px; }
+#donateEntry > div.container > div > form > div.inputRow > span.inputLabel{ width: 60px;}
+#donateEntry > div.container > div > form > div.inputRow > input.textInput{ height: 38px;}
+#donateEntry > div.container > div > form > div.inputRow > label { cursor: pointer; font-weight: 500; margin: 9px 20px 0 0; }
+#donateEntry > div.container > div > form > div.inputRow > label > input { float: left; margin: 3px 4px 0 0; }
+#donateEntry > div.container > div > form > span{ padding-right: 30px;}
+.donateForm { width: 445px; display: table; margin: 40px auto 50px; }
+#donateEntry > div.container > div > p{ text-align: justify; font-size: 15px;}
+/************************************ End of Donation Entry Page ********************************/
+/**************************************** Donation Detail Page **********************************/
+section.donationPage > div.suppHeaderArea{ background: url("../img/banner/donation.png") center;}
+section.donationPage > div.suppHeaderArea > div.suppHeader { background-color: rgba(43,43,43,0.3) }
+.story { margin: 0 auto 50px; }
+.story > div > p{ margin: 0;}
+.donationPage > div.suppHeaderArea > div > p{ font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+.donateTabs{ background-color: #f3f3f3; border-bottom: 1px solid #cbcbcb;}
+.donateTabs > div > ul{ font-size: 0; margin: 0; text-align: center; display: table; width: 100%; border-collapse: collapse;}
+.donateTabs > div > ul > li{ padding: 0; display: table-cell; vertical-align: middle; width: 20%; text-align: center; border-left: 1px solid #cbcbcb;}
+.donateTabs > div > ul > li:last-child{ border-right: 1px solid #cbcbcb;}
+.donateTabs > div > ul > li > a{ font-size: 16px; font-weight: 500; text-transform: uppercase; color: #444546; display: block; line-height: 20px; padding: 20px 0 18px; border-bottom: 2px solid #f3f3f3;}
+.donateTabs > div > ul > li > a:hover{ border-bottom-color: #4fa23a; background-color: #DCDCDC; transition: all 0.5s; -webkit-transition: all 0.5s;}
+.donateTabs > div > ul > li > a.active{ border-bottom-color: #4fa23a; background-color: #DCDCDC; }
+.donationDetail{margin: 40px 0 0;}
+.donorName{ font-size: 25px; margin-left: 145px; margin-bottom: 0; padding-top: 20px;}
+.donorProfile{ margin-left: 145px; margin-bottom: 0;}
+#donateDetail > div.donationDetail > div > div > div.col-md-9 > h2{ display: inline-block; width: 100%; font-size: 30px; font-weight: 400; margin: 30px 0;}
+#donateDetail > div.donationDetail > div > div > div.col-md-9 > p.lmDate{ font-size: 14px; color: #8f9495;}
+#donateDetail > div.donationDetail > div > div > div.col-md-9 > p.pText{ font-size: 14px; line-height: 25px;}
+#donateDetail > div.donationDetail > div > div > div.col-md-9 > p:last-child{ margin-bottom: 50px;}
+.donationLink{ margin-top: 80px; background-color: #e4f9df; border: 1px solid #d3efcb; display: inline-block; width: 100%; border-radius: 5px;}
+.donationLink > div > p:nth-child(1){ font-size: 32px; color: #4fa23a; margin: 26px 0 0 25px; font-weight: 500;}
+.donationLink > div > p:nth-child(2){ font-size: 14px; color: #444546; font-style: italic; margin-left: 25px;}
+.btnDonate{ background-color: #4490a5; color: #FFFFFF; font-size: 20px; font-weight: 500; padding: 10px 20px; margin: 33px 20px;}
+.recentDonor{ background-color: #f5f5f5; border: 1px solid #e3e3e3; border-radius: 5px; padding: 20px; margin-bottom: 30px;}
+.recentDonor:last-child{ margin-bottom: 50px;}
+.recentDonor > h2{ font-size: 25px; font-weight: 300; border-bottom: 1px solid #e3e3e3; padding-bottom: 15px; margin: 0;}
+.recentDonor > ul{ margin: 0;}
+.recentDonor > ul > li{ margin: 0; border-bottom: 1px solid #e3e3e3; padding: 20px 0;}
+.recentDonor > ul > li:last-child{ border-bottom: 0; padding-bottom: 0;}
+.recentDonor ul > li > a{ color: #444546; font-size: 14px; font-weight: 500; margin-left: 70px; display: block;}
+.recentDonor ul > li > p{ margin-left: 70px; font-size: 13px; color: #8f9495; margin-bottom: 0; margin-top: 5px;}
+/************************************ End of Donation Detail Page *******************************/
+/****************************************** All Review Page *************************************/
+#allReview > div.suppHeaderArea{ background: url("../img/banner/review.png") center;}
+#allReview > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#allReview > div.reviewListArea > div.container > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 50px 0 65px;}
+#allReview > div.reviewListArea > div.container > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+.reviewListArea{ margin: 0 auto;}
+.donateTabs > div > ul > li > label{ font-size: 16px; font-weight: 500; text-transform: uppercase; color: #444546; display: block;width: 100%; text-align: center; line-height: 20px;padding: 18px 0 16px;border-bottom: 2px solid #f3f3f3; margin: 0; cursor: pointer;}
+.donateTabs > div > ul > li > label > input{ margin: 0 8px 0 0; }
+.donateTabs > div > ul > li > label:hover{ border-bottom-color: #4fa23a; background-color: #DCDCDC; transition: all 0.5s; -webkit-transition: all 0.5s;}
+.donateTabs > div > ul > li > label.active{ border-bottom-color: #4fa23a; background-color: #DCDCDC; transition: all 0.5s; -webkit-transition: all 0.5s;}
+.productName{ font-size: 20px; color: #444546; margin-left: 130px; margin-bottom: 5px;}
+.productAuthor{ font-size: 14px; color: #8f9495; margin-left: 130px; margin-bottom: 0;}
+.productInfo > ul{ margin: 8px 0 10px 130px; font-size: 13px; font-weight: 400;}
+.productInfo > ul > li{ padding-left: 0; padding-right: 5px;}
+.productInfo > ul > li:nth-child(1) { float: left; margin-top: -6px; }
+.productInfo > ul > li:nth-child(3) > a{ color: #4fa23a}
+.productInfo > ul > li:nth-child(3):before{ content: '|'; color: #444546; padding-right: 5px;}
+.productInfo > ul > li:nth-child(4){ color: #4490A3; cursor: pointer;}
+.productInfo > ul > li:nth-child(4):before{ content: '|'; color: #444546; padding-right: 5px;}
+.productInfo > form{ margin: 0 0 0 130px; width: 425px;}
+.productInfo > form >textarea{ border: 1px solid #dddddd; width: 100%; padding: 10px; margin-bottom: 5px;}
+.productInfo > form >textarea::-webkit-input-placeholder{ font-style: italic;} .productInfo > form >textarea:-moz-placeholder{ font-style: italic;} .productInfo > form >textarea::-moz-placeholder{ font-style: italic;} .productInfo > form >textarea:-ms-input-placeholder{ font-style: italic;}
+.btnCancel{ background-color: #4490a5; margin-right: 15px; margin-top: 0;}
+.proReview{ display: inline-block; width: 100%;}
+.reviewTitle{ font-size: 16px; font-weight: 500; margin-top: 20px; color: #444546;}
+.reviewBody{ color: #8f9495; text-align: justify;}
+.proReview > ul{ margin-top: 15px; margin-bottom: 15px;}
+.proReview > ul > li:first-child{ float: left; margin-top: -5px;}
+.reviewVoting{ background-color: #f9f9f9; border: 1px solid #f1f0f0; border-radius: 5px; padding: 15px 20px; font-size: 13px; color: #8f9495;}
+
+.btnVote{ 
+    background-color: #eeeeee; 
+    border: 1px solid #d4d2d2; 
+    font-size: 10px; color: #8f9495; 
+    width: 50px; 
+    padding: 3px 0; 
+    text-transform: capitalize; 
+    border-radius: 3px; 
+    height: 20px;
+}
+
+.reviewList > ul{ margin-bottom: 50px;}
+.reviewList > ul > li{ border-bottom: 1px solid #eaeaea; padding-bottom: 30px; margin-bottom: 30px;}
+.reviewList > ul > li:last-child{ border-bottom: 0; padding-bottom: 0;}
+.proReview > ul{ font-size: 13px; color: #8f9495;}
+.proReview > ul > li.lmDate{ font-size: 13px; color: #8f9495;}
+.paginationArea{ margin: 60px 0;}
+#allReview > div.reviewListArea > div > div > div.col-md-3 > div.recentDonor > ul > li > a{ margin-left: 75px;}
+#review > div.reviewListArea > div > div > div.col-md-3 > div.recentDonor > ul > li > a{ margin-left: 75px;}
+.recentDonor > ul > li > a:nth-child(3){ font-size: 13px; color: #8f9495; font-weight: 400;}
+.recentDonor > ul > li > a > div{ margin-left: 0; width: 63px !important;}
+.recentDonor > ul > li > a > div > img{ width: 12px;}
+.ratingCount{ font-size: 12px; color: #4fa23a; float: left; margin-top: 6px;}
+.recentDonor > ul > li{ display: inline-block; width: 100%;}
+/************************************** End of All Review Page **********************************/
+/******************************************** Review Page ***************************************/
+#review > div.suppHeaderArea{ background: url("../img/banner/review.png") center;}
+#review > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#review > div.reviewListArea > div.container > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 50px 0 65px;}
+#review > div.reviewListArea > div.container > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+.allReview{ display: inline-block; width: 100%; margin-top: 30px; margin-bottom: 50px;}
+.custReviewHeader,.queAndAnsHeader{height:77px;background-color:#f5f5f5;border-top:2px solid #e4e4e4;}
+.custReviewHeader > ul,.queAndAnsHeader >ul {padding: 0;line-height: 77px; margin: 0 0 0 25px; }
+.custReviewHeader > ul >li,.queAndAnsHeader > ul >li{margin: 0;padding: 0; color:#adaeaf; float: left;}
+.custReviewHeader > ul > li:nth-child(2),.queAndAnsHeader > ul > li:nth-child(2){ margin-top: -5px;}
+.custReviewHeader > ul >li:first-child,.queAndAnsHeader > ul >li:first-child{color:#444546;margin-right:15px;}
+.custReviewHeader > ul >li:last-child,.queAndAnsHeader > ul >li:last-child{color:#4490a5;margin-left:15px;}
+
+.reviewWriteBtn,.askQueBtn {
+    background-color:#4fa23a;
+    height:38px;
+    width:150px;
+    color:#FFF;
+    /* text-transform:uppercase; */
+    margin:18px 30px;
+    border:1px solid #408a2d;
+}
+
+
+.reviewWriteBtn:hover,.askQueBtn:hover{color:#FFF}
+.custReviewRows,.queAndAnsRows{margin:0;padding:0}
+.custReviewRow,.queAndAnsRow{display:inline-block;width:100%;margin:0;border-bottom:1px solid #eef8e2;padding:20px 0}
+.custReviewRow:last-child,.queAndAnsRow:last-child{ border-bottom: 0;}
+.custInfoArea{float:left;width:210px;margin:0;}
+.custInfoArea>ul{display:inline-block;width:100%;padding:0; margin: 0 0 10px; }
+.custInfoArea>ul>li{color:#adaeaf;margin:0;padding:0;}
+.custInfo>img{float:left;width:32px;border-radius:50%;border:1px solid #ededed;}
+.custInfo>p{margin-left:40px;color:#5f6061;font-size:12px;margin-bottom:2px;}
+.custReview{float:left;width:430px;padding-right:5px;}
+.custReview>p{text-align:justify;color:#5f6061;font-size:13px;font-weight:400;margin:0}
+.custReviewFooter,.queAndAnsFooter{height:52px;width:100%;background-color:#f5f5f5;border-top:1px solid #e4e4e4;text-align:center;margin-bottom: 0;}
+.custReviewFooter>p,.queAndAnsFooter>p{line-height:52px;text-align:center;color:#a2a2a2;margin:0}
+.custReviewFooter>p>a,.queAndAnsFooter>p>a{color:#a2a2a2}
+.votingArea{float:right;width:205px;padding-left:25px;}
+.votingArea >p {font-size:13px;font-weight:400;margin:0;color:#8f9495;}
+.upVote,.downVote{font-size:9px;height:18px;width:48px;background-color:#EEE;border:1px solid #d4d2d2;padding:0;border-radius:1px;color:#8f9495;}
+.upVote:hover,.downVote:hover{color:#8f9495;}
+.upVote{margin:5px 5px 5px 0;}
+.downVote{margin-left:5px;}
+.votingArea>p>a>i.fa{color:#3a589b;padding-right:5px;}
+.queAndAns{float:left;width:640px;}
+.question{color:#444546;margin:0}
+.question:before{content:'Q:';padding-right:10px;color:#444546}
+.queUserInfo,.queDetail{font-size:13px;font-weight:300;color:#5f6061;margin-left: 30px;margin-bottom:0; line-height: 22px;}
+.answer { font-size: 14px; color: #8F9495;  font-weight: 400; margin: 10px 0 15px; }
+.answer:before{content:'A:';padding-right:10px;color:#8f9495;font-style:normal}
+p.queUserInfo > span{ color: #444546;}
+.custReview > textarea{ width: 100%; padding: 10px; border: 1px solid #dddddd;}
+.custReview > textarea::-webkit-input-placeholder{ font-style: italic;} .custReview > textarea:-moz-placeholder{ font-style: italic;} .custReview > textarea::-moz-placeholder{ font-style: italic;} .custReview > textarea:-ms-input-placeholder{ font-style: italic;}
+.queAndAns > textarea{ width: 100%; padding: 10px; border: 1px solid #dddddd;}
+.queAndAns > textarea::-webkit-input-placeholder{ font-style: italic;} .custReview > textarea:-moz-placeholder{ font-style: italic;} .custReview > textarea::-moz-placeholder{ font-style: italic;} .custReview > textarea:-ms-input-placeholder{ font-style: italic;}
+.votingArea > button.btnSubmit{ margin-bottom: 20px !important;}
+.custInfo.userInfo > img{ width: 70px;}
+.custInfo.userInfo > p{ font-size: 14px; margin-left: 80px; color: #444546; padding-top: 20px;}
+.proReview.inQandList{ margin: 15px 0;}
+#submitBtn2 { margin-bottom: 15px; margin-top: 20px; }
+#submitBtn { margin-bottom: 20px; margin-top: 0; }
+/***************************************** End of Review Page ***********************************/
+/************************************** Question and Answer Page ********************************/
+#allQandA > div.suppHeaderArea{ background: url("../img/banner/qanda.png") center;}
+#allQandA > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#allQandA > div.reviewListArea > div.container > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 50px 0 65px;}
+#allQandA > div.reviewListArea > div.container > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+#qandA > div.suppHeaderArea{ background: url("../img/banner/qanda.png") center;}
+#qandA > div.suppHeaderArea > div > p { font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#qandA > div.reviewListArea > div.container > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 50px 0 65px;}
+#qandA > div.reviewListArea > div.container > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+
+/*********************************** End of Question and Answer Page ****************************/
+/***************************************** Donation List Page ***********************************/
+#donateList > div.suppHeaderArea > div > p{ font-size: 20px; font-weight: 400; color: #FFFFFF; text-align: center; font-style: italic; margin: -15px 0 -20px; }
+#donateList > div.donationDetail > div > h2{ font-size: 30px; font-weight: 300; color: #444546; text-align: center; margin: 0 0 65px;}
+#donateList > div.donationDetail > div > h2 > span{ border-bottom: 1px solid #8f9495; padding:0 15px 15px;}
+.donationList{ font-size: 0; margin: -15px -15px 35px; }
+.donationList > li{ padding: 0; margin: 15px; width: 262px; font-size: 14px; vertical-align: top;}
+.donationTitle{ font-size: 16px;}
+.donationList > li > p.lmDate{ font-size: 14px; color: #8f9495;}
+.donateDetail{ font-size: 14px; color: #8f9495; text-align: justify;}
+.donationList > li > ul > li:nth-child(2) > a{ color: #444546;}
+#donateList > div.donationDetail > div > div > div.col-md-9 > div.paginationArea{ margin: 40px 0;}
+/************************************** End of Donation List Page *******************************/
+/**************************************** Testimonial List Page *********************************/
+.testListItem{text-align:center}
+.testListItem>p{text-align:center;}
+.testListItem>p:nth-child(1){font-size:20px;font-weight:300;color:#444546;margin:0 0 30px;}
+.testListItem>p:nth-child(2){color:#8f9495;}
+.testListItem>img{height:75px !important;width:75px !important;border-radius:50%;border:1px solid #cfcfcf;padding:1px;background-color:#FFF;margin:15px auto;}
+
+/************************************** End of Donation List Page *******************************/
+.unsubscribe {font-size: 18px; font-weight: 300; line-height: 62px; text-transform: none; margin: 0; text-align: center;}
+
+/***************************************** Site map page *******************************************/
+#sitemap > div.suppHeaderArea{ background: url("../img/banner/sitemap.jpg") center;}
+#sitemap > div.suppHeaderArea > div > h1 {margin: 0; padding: 15px;}
+#sitemap > div.suppBody { background-color: #FFFFFF; padding-top: 60px;}
+#sitemap > div.suppBody div.row > h1{ text-align: center; line-height: 1; margin: 10px 0 35px; }
+#sitemap > div.suppBody div.row > h1 > span { border-bottom: 1px solid #d4d4d4; padding: 10px 25px; font-size: 30px; font-weight: 300;}
+#sitemap > div.suppBody div.row h2 { font-size: 20px; color: #4fa23a; font-style: italic; font-weight: 500;}
+#sitemap > div.suppBody div.row li { font-size: 16px; margin: 5px 0;}
+#sitemap > div.suppBody div.row li.viewMore { list-style: none;}
+#sitemap > div.suppBody div.row li.viewMore > a { font-style: italic; color: #0797d6; font-weight: 500;}
+#sitemap > div.suppBody div.row ul { padding-left: 17px; margin-bottom: 30px;}
+/************************************* End of Site map page ****************************************/
+/**************************************** Subscription page ****************************************/
+#subscription {  max-width: 600px;  margin: 30px auto 50px;  font-size: 16px;  }
+#subscription div.heading{font-size: 30px; margin-bottom: 10px;}
+#subscription p {}
+#subscription button {  height: 35px;  width: 150px;  padding: 0;  }
+#subscription div.flashMessage{ font-size: 20px;}
+#subscription #select_error {font-size: 16px; margin: 15px 0}
+/************************************** End subscription page **************************************/
+/* ================================================== */
+/*					Responsive Design				  /*
+/* ================================================== */
+@media only screen and (max-width: 1400px) {
+    div.suppHeaderArea{ background-size: auto 100% !important}
+}
+/* ============ View 940px ================== */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #contact > div.contactUs > div > div.wraper { width: 940px; }
+    #contact > div.contactUs > div > div.wraper > .email { width: 480px; }
+    .helpBtn { padding: 20px; height: 190px; }
+    .helpBtn>img { float: none; margin: auto; height: 70px; display: block;}
+    .helpBtn>h2 { text-align: center; margin-top: 15px; }
+    .helpBtn>p { text-align: center; line-height: 1.3; margin-top: 15px; margin-bottom: 0; }
+    .suppMenu { width: 230px;}
+    .suppRightBody { width: 680px; }
+    #help > div.suppBody > div > div > div.suppRightBody.pull-right > div > div:nth-child(2) > div > p.info{ margin-left: -5px;}
+    #faq>p.title2{ font-size: 22px;}
+    .suppRightBody>ul>li>img,.suppRightBody>ul>li>a>img { width: 680px; }
+    .donationList > li{ width: 212px;}
+    .recentDonor > ul > li > a > span.ratingCount{ margin-top: 0;}
+    .custReview { width: 280px; padding-right: 0; }
+    .queAndAns { width: 490px; padding-right: 0; }
+}
+/* =========== End View 940px ================ */
+/* =============== Tab View ================== */
+@media (min-width: 768px) and (max-width: 991px) {
+    .suppHeader { padding: 80px 15px 80px; }
+    #about > div.story > div > div,#about > div.story > div > p{ column-count: 1; -webkit-column-count: 1; -moz-column-count: 1;}
+    #about > div.story > div > h2 { margin: 40px 0 50px; font-size: 28px; }
+    #contact > div.contactUs > div > div.wraper { width: 720px; }
+    #contact > div.contactUs > div > div.wraper > .email { width: 350px; }
+    #contact > div.contactUs > div > div.wraper > .map { width: 350px; overflow: hidden; }
+    .writeTest > div > div.wraper,#allTestimonial > div.allRevBody > div > ul { width: 720px; }
+    .helpBtn {padding: 15px;height: 160px;}
+    .helpBtn>img { float: none; margin: auto;height: 55px; display: block;}
+    .helpBtn>h2 { text-align: center; margin-top: 15px;font-size: 16px;}
+    .helpBtn>p { text-align: center; line-height: 1.3;margin-top: 5px; margin-bottom: 0;}
+    .suppMenu { width: 160px;}
+    .suppRightBody { width: 530px; }
+    .helpDiv>p.info{ font-size: 18px;}
+    #help > div.suppBody > div > div > div.suppRightBody.pull-right > div > div:nth-child(2) > div > p.info{ margin-left: -5px;}
+    #faq>p.title2{ font-size: 21px;}
+    .suppMenu>ul>li>ul>li>a{ padding-left: 40px;}
+    .suppRightBody>ul>li>img,.suppRightBody>ul>li>a>img { width: 530px; }
+    .donateTabs > div > ul > li:nth-child(4) > a,.donateTabs > div > ul > li:nth-child(5) > a{ padding: 10px 0 8px;}
+    .donationList > li{ width: 245px;}
+    .moreMedia,.recentDonor{ padding: 0; border: 0; background-color: #FFFFFF; margin-left: -10px; }
+    .moreMedia > ul:nth-child(2) > li:last-child,.recentDonor > ul > li:last-child { border-bottom: 1px solid #e3e3e3; padding-bottom: 20px; }
+    .donateTabs > div > ul > li > label{ font-size: 14px;}
+    .recentDonor > ul > li > a > span.ratingCount{ margin-top: 0;}
+    .productInfo > form { width: 400px; }
+    .custInfoArea { width: 180px; }
+    .custReview { width: 100%; padding-right: 0; margin-top: 20px; }
+    .votingArea { width: 180px;}
+    .queAndAns { width: 350px; padding-right: 0; }
+    #userReview > form > div.custReview{ width: 405px;}
+    #userReview > form > div.votingArea{ width: 125px; padding-left: 15px; margin-top: 15px; }
+    .custReviewHeader > ul, .queAndAnsHeader >ul { margin: 0 0 0 15px; }
+    .custReviewHeader > ul >li:first-child, .queAndAnsHeader > ul >li:first-child { margin-right: 5px; }
+    .custReviewHeader > ul >li:last-child, .queAndAnsHeader > ul >li:last-child { margin-left: 5px; }
+
+    .reviewWriteBtn, .askQueBtn { 
+        width: 130px; 
+        margin: 18px 15px 18px 0; 
+        padding: 0; font-size: 14px;
+    }
+
+    #about > div.story{ margin: 0 auto;}
+}
+/* =========== End of Tab View =============== */
+/* ============ Mobile View ================== */
+/******** Mobile View (Landscape) ********/
+@media (min-width: 501px) and (max-width: 767px) {
+}
+/******** Mobile View (Portrait) ********/
+@media only screen and (max-width: 500px) {
+
+}
+@media only screen and (max-width: 350px) {
+    #ticketForm > div:nth-child(4) > div,div.inputRow.captcha{ width: 270px; overflow: hidden;}
+}
+@media only screen and (max-width: 767px) {
+    .suppHeader { padding: 50px 15px 50px; }
+    .suppHeader>h1 { font-size: 25px;}
+    div.suppHeaderArea > div > p { font-size: 16px !important;}
+    #about > div.story > div > div,#about > div.story > div > p{ column-count: 1; -webkit-column-count: 1; -moz-column-count: 1;}
+    #about > div.story > div > h2 { margin: 30px 0 40px; font-size: 23px; }
+    #about > div > div > h2 > span { padding: 0 15px 10px; }
+    #allTestimonial > div.allRevHeader > div > ul > li{ display: block; text-align: center; margin: 0;}
+    #allTestimonial > div.allRevHeader > div > ul > li:nth-child(2) > h1 { float: none; margin: 0; font-size: 22px; line-height: 50px; }
+    .allRevHeader { padding: 15px 0; }
+    .btnSay{ margin-left: 0;}
+    #allTestimonial > div.allRevBody > div > ul { width: 100%; margin: 20px auto 40px; }
+    #allTestimonial > div.allRevBody > div > ul > li:first-child{ margin-top: 0;}
+    .writeTest > div > div.wraper{ width: 100%;}
+    .email,.map,#contact > div.contactUs > div > div.wraper { width: 100%; }
+    #contact > div.contactUs > div > div.wraper { margin: 40px 0;}
+    .email{ margin-bottom: 30px;}
+    #contact > div.contactUs > div > div > div.map.pull-right > div > div.googleMap > iframe{ width: 100%;}
+    #contact > div.contactUs > div > div > div.email.pull-left > form > span.successMess{ float: none; width: 100%}
+    .suppBody { padding: 40px 0 10px; }
+    .helpBtn { margin-bottom: 10px; }
+    p.helpText { margin-bottom: 30px; }
+    .suppRightBody { width: 100%; float: none !important; padding-top: 80px; }
+    .helpDiv.text-center { margin-bottom: 40px; }
+    .helpDiv>p { line-height: 18px; }
+    .suppMenu { position: absolute; z-index: 9; width: 100%; background-color: #FFFFFF; border-radius: 0; float: none !important; border-bottom: 0;}
+    .suppMenu > span { padding: 0 0 0 15px; line-height: 38px; border-bottom: 1px solid #d1dadc}
+    div.suppMenu.pull-left > ul > li > p > a > i,.suppMenu > span > i { font-size: 20px; padding: 9px 14px;}
+    .suppMenu > ul { display: none; width: 100%; top: 38px; z-index: 9;}
+    .suppMenu>ul>li>p,.suppMenu>ul>li>ul>li,.suppMenu>ul>li { border-bottom: 1px solid #edeeef; }
+    .suppMenu>ul>li:last-child { border-bottom: 1px solid #d1dadc; }
+    .suppMenu>ul>li>ul>li>a, .suppMenu>ul>li>p>a, .suppMenu>ul>li>a { font-size: 14px; line-height: 38px; padding: 0 0 0 15px; }
+    .suppMenu>ul>li>ul>li>a{ padding-left: 30px;}
+    .suppRightBody>ul>li>a>img { width: 100%; margin-left: 0;}
+    .suppRightBody > p.guideNav { font-size: 18px; margin-bottom: 30px}
+    .previous { margin-right: 40px; }
+    .next { margin-left: 40px; }
+    .suppRightBody>p.guideNav>span>a>i { font-size: 35px; }
+    .suppMenu>ul>li>ul{ border-top: 1px solid #edeeef;}
+    .suppMenu>ul>li>p{ border-bottom: 0;}
+    #guide > div.suppBody > div > div > div.suppMenu.pull-left > ul > li:nth-child(1) > p > a{ background-color: #FFFFFF;}
+    #faq>p.title2 { font-size: 20px;}
+    select#type { height: 45px; width: 100%; padding: 0 10px; }
+    #details { width: 100%; padding: 15px 15px; }
+    #ticketForm{ margin-bottom: 30px}
+    #faqPage > div.suppBody{ padding-bottom: 40px;}
+    #about > div.story{ margin: 0 auto;}
+    #subscription button {margin-top: 15px;}
+}
+/* ============ End of Mobile View =========== */
+/* ================================================== */
+/*				End of Responsive Design			   /*
+/* ================================================== */
