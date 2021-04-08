@@ -86,7 +86,7 @@
               <a class="nav-link" href="subodh.html" style="font-weight: bold;"><span class="d-block">IPDC</span>সুবোধ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ব্লগ</a>
+              <a class="nav-link" href="blog.html">ব্লগ</a>
             </li>
             </ul>
         </div>
@@ -203,11 +203,120 @@
     </div>
 
     <!--loan form-->
+    <div class="loan_form">
+    <h1 style="text-align: center;"><b>লোন ফর্ম</b></h1>
+
+    <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+                <label class="form-label" for="form6Example1">ক্রেতার নাম (ন্যাশনাল আইডি অনুযায়ী):</label>
+              <input type="text" id="form6Example1" class="form-control" placeholder="Enter your full name" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+                <label class="form-label" for="form6Example2">জন্ম তারিখ:</label>
+              <input type="date" id="form6Example2" class="form-control" placeholder="dd/mm/yyyy" />  
+            </div>
+          </div>
+        </div>
+      
+        <!-- Text input -->
+        <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <p><span class="widetitle">জেন্ডার:</span>
+                    <span class="formx"><span class="radio-lab">পুরুষ</span><input type="radio" name="Title" value="No" class="radio" />
+                    <span class="radio-lab">মহিলা</span><input type="radio" name="Title" value="Yes" class="radio" /></span>
+                    <span class="radio-lab">অন্যান্য</span><input type="radio" name="Title" value="Yes" class="radio" /></span></p>
 
 
 
+                  
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                  <label class="form-label" for="form6Example2">মোবাইল নং:</label>
+                <input type="number" id="form6Example2" class="form-control" placeholder="01XXXXXXXXX"/>  
+              </div>
+            </div>
+          </div>
+      
+        <!-- Text input -->
+        <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                  <label class="form-label" for="form6Example1">এনআইডি নং:</label>
+                <input type="number" id="form6Example1" class="form-control" placeholder="Enter your NID no" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                  <label class="form-label" for="form6Example2">বিকাশ নং (ব্যক্তিগত):</label>
+                <input type="number" id="form6Example2" class="form-control" placeholder="01XXXXXXXXX" />  
+              </div>
+            </div>
+          </div>
+      
+        <!-- Email input -->
+        <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                  <label class="form-label" for="form6Example1">পেশা:</label><br>
+                  
+              
+            <select name="occupation" id="js--occupation" class="custom-select">
+                <option value="0" selected="" disabled="">Please Select</option>
+                <option value="STUDENT">Student</option>
+                <option value="EMPLOYEE">Employee</option>
+                <option value="BUSINESSMAN">Businessman</option>
+                <option value="OTHERS">Other</option>
+            </select>
+        </div>
+    </div>
+    
 
 
+            <div class="col">
+              <div class="form-outline">
+                  <label class="form-label" for="form6Example2">আপনি রকমারি থেকে আগে বই কিনেছেন?</label><br>
+                  <select name="occupation" id="js--occupation" class="custom-select">
+                    <option value="0" selected="" disabled="">Please Select</option>
+                    <option value="YES">Yes</option>
+                    <option value="No">No</option>
+                    
+                </select>  
+              </div>
+            </div>
+          </div>
+      
+        <!-- Number input -->
+        
+      
+        <!-- Message input -->
+        
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form6Example8"
+            checked
+          />
+          <label class="form-check-label" for="form6Example8"> উপরের শর্তসমূহে আমি সম্মতি প্রদান করছি। </label>
+        </div>
+      
+        
+        <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+      </form>
+
+
+    </div>
       <!--fotter-->
 
       <div class="container">
