@@ -36,5 +36,5 @@ function myFunction() {
 
 
 
-//for crossfading slider
+
 

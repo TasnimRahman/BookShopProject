@@ -489,6 +489,100 @@ a{
 }
 
 
+.home-book-list-section {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+    border-radius: 3px;
+    padding-bottom: 0px;
+      
+    background-image: linear-gradient(rgba(252, 250, 238, 0.6), rgba(252, 250, 238, 0.6)), url(assets/image/slider_img/pattern.png);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    height: auto;
+    
+  }
+   
+  .img {
+    text-align: center;
+    vertical-align: middle;
+    border-style: none;
+  }
+   
+  .offer {
+    background-image: url(assets/image/slider_img/discount.png);
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -20px;
+    height: 41.5px;
+    width: 45px;
+  }
+   
+  .book .offer p {
+    font-size: 60%;
+    font-weight: 100;
+  }
+  .read {
+    background-image: url(imgaes/look-inside.png);
+    height: 68px;
+    width: 85px;
+    position: absolute;
+    margin-top: -30px;
+  }
+  .book-btn {
+    width: 100%;
+    background-color: #0397d3 !important;
+    color: #fff !important;
+    margin: 0 auto;
+    visibility: hidden;
+  }
+   
+  .book:hover {
+    box-shadow: inset 0px 0px 7px 0px #cdcdcd;
+    cursor: pointer;
+  }
+   
+  .book:hover .book-btn {
+    visibility: visible;
+  }
+   
+   
+  button.owl-prev {
+      position: absolute;
+      font-size: 120px !important;
+      left: -10px;
+      top: 35px;
+  }
+   
+  button.owl-next {
+      
+       position: absolute;
+      font-size: 120px !important;
+      right: -10px;
+      top: 35px;
+  }
+   
+  button.owl-prev, button.owl-next{
+      border-radius: 4px 0 0 4px;
+      box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
+      background: #FFFFFF;
+      z-index: 1;
+  }
+   
+   
+  .owl-theme .owl-nav [class*=owl-]:hover{
+      background: none;
+  }
+   
+   
+  .owl-theme .owl-nav [class*=owl-]:hover {
+      background: #869791;
+      color: #FFF;
+      text-decoration: none;
+  }
+
+
 /*blog*/
 .col .blog button{
     margin-left: 5px;
@@ -500,7 +594,12 @@ a{
     margin: 20px 50px;
 }
 
-.carousel .slide, .carousel-inner{
+.card-group .card-body .card-text{
+    font-size: 14px;
+    color: rgb(121, 119, 119);
+}
+
+.blog .carousel .slide .carousel-inner{
     margin-left: 80px;
     margin-top: 10px;
     height: 400px;
@@ -558,8 +657,6 @@ a{
 .rules .card-group .card-body{
     margin-top: -5px;
     padding: 30px 35px 30px 55px;
-    border-radius: 10px;
-    flex: 1 1 auto;
 }
 
 .loan_click button{
@@ -570,7 +667,7 @@ a{
 }
 
 .loan_form{
-    margin: 30px 100px ;
+    margin: 50px 150px ;
 }
 
  .loan_form .custom-select {
@@ -590,4 +687,13 @@ a{
     height: 50px;
     width: 200px;
     font-size: 120%;
+}
+
+
+/*offers page*/
+.terms .card{
+    margin-left: 70px;
+}
+.terms .card-header{
+    text-align: center;
 }
