@@ -296,34 +296,11 @@ hr:not([size]) {
     font-size: 30px;
 }
 
-.subscribe .sub span{
-    color: #33c24d;
-}
 
 
-.male-subscription-btn {
-    color: #0397d3 !important;
-    border-color: #0397d3;
-    font-size: 100%;
-    border-radius: 2px 2px 2px 2px !important;
-    box-shadow: 0px 3px 6px -4px #a2a2a2;
-    padding: 9px 9px;
-    margin: 0 10px;
-}
 
-.male-subscription-btn:hover {
-    color: #FFFFFF !important;
-    background-color: #0397d3 !important;
-    box-shadow: none !important;
-    border-color: #8bc4ea !important;
-}
 
-.female-subscription-btn:hover {
-    color: #FFFFFF !important;
-    background-color: #E26A6A !important;
-    box-shadow: none !important;
-    border-color: #eda3a3 !important;
-}
+
 
 .subscription-section {
     padding: 20px 20px 20px 20px;
