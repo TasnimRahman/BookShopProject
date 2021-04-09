@@ -1,0 +1,76 @@
+/*Footer Css*/
+
+
+.large-footer {
+  background-color: #FFFFFF;
+  padding: 30px 0 0 0;
+  color: #333333;
+}
+
+
+.custom-container {
+  max-width: 950px;
+}
+
+.large-footer .footer-logo {
+  width: 42%;
+}
+
+.large-footer .footer-basic-info {
+  margin-top: 25px;
+}
+
+.large-footer .footer-basic-info p {
+
+  display: inline-flex;
+  align-items: center;
+  font-size: 83%;
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.large-footer .footer-basic-info p img {
+  margin-right: 8px;
+}
+.large-footer .social-links a {
+ text-decoration: none;
+}
+.large-footer .social-links img {
+  height: 22px;
+  width: auto;
+  margin-right: 4px;
+}
+
+.large-footer .footer-basic-info p a {
+  color: #666;
+  text-decoration: none;
+}
+
+.app-icon {
+  display: flex;
+}
+
+.large-footer .footer-all-links ul li a {
+  font-size: 85%;
+  color: #000;
+  text-decoration: none;
+    font-size: 14px;
+
+}
+
+.large-footer .footer-all-links ul li {
+  list-style-type: circle;
+}
+
+
+.large-footer .payment-options-row .payment-options img {
+  margin-right: 10px;
+}
+.large-footer .payment-options-row .payment-options img.cod {
+  width: 32px;
+  height: 32px;
+}
+.large-footer .payment-options-row .payment-options img.bKash {
+  width: 51px;
+  height: 23px;
+}
